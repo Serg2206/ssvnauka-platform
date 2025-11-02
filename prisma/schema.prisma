@@ -1,0 +1,75 @@
+generator client {
+    provider = "prisma-client-js"
+    binaryTargets = ["native", "linux-musl-arm64-openssl-3.0.x"]
+    output = "/home/ubuntu/ssvnauka/nextjs_space/node_modules/.prisma/client"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+model Category {
+  id          String @id @default(cuid())
+  slug        String @unique
+  titleEn     String
+  titleRu     String
+  description String
+  emoji       String
+  imageUrl    String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  videos      Video[]
+
+  @@map("categories")
+}
+
+model Video {
+  id           String @id @default(cuid())
+  slug         String @unique
+  titleEn      String
+  titleRu      String
+  description  String
+  duration     String
+  channel      String
+  youtubeUrl   String
+  viewCount    String?
+  thumbnailUrl String?
+  categoryId   String
+  featured     Boolean @default(false)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  
+  category     Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  relatedFrom  RelatedVideo[] @relation("FromVideo")
+  relatedTo    RelatedVideo[] @relation("ToVideo")
+
+  @@map("videos")
+}
+
+model RelatedVideo {
+  id        String @id @default(cuid())
+  fromId    String
+  toId      String
+  createdAt DateTime @default(now())
+  
+  from      Video @relation("FromVideo", fields: [fromId], references: [id], onDelete: Cascade)
+  to        Video @relation("ToVideo", fields: [toId], references: [id], onDelete: Cascade)
+  
+  @@unique([fromId, toId])
+  @@map("related_videos")
+}
+
+model ContactSubmission {
+  id        String @id @default(cuid())
+  name      String
+  email     String
+  subject   String
+  message   String
+  status    String @default("new") // new, read, replied
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@map("contact_submissions")
+}

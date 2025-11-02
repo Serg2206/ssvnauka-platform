@@ -1,0 +1,590 @@
+{
+  "categories": [
+    {
+      "id": "surgical-techniques",
+      "name_en": "Surgical Techniques",
+      "name_ru": "Хирургические техники",
+      "description_en": "Master fundamental surgical skills and advanced techniques for professional medical practice",
+      "description_ru": "Освойте основные хирургические навыки и продвинутые техники для профессиональной медицинской практики",
+      "image_url": "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=800&h=400&fit=crop",
+      "videos": [
+        {
+          "title_en": "Fundamentals of Laparoscopic Surgery (FLS) Program",
+          "title_ru": "Основы лапароскопической хирургии - программа FLS",
+          "description": "Комплексная программа обучения основам лапароскопической хирургии, включающая теоретические знания и практические навыки для хирургов всех уровней.",
+          "duration": "Полный курс",
+          "channel": "SAGES (Society of American Gastrointestinal and Endoscopic Surgeons)",
+          "youtube_url": "https://www.flsprogram.org/",
+          "views": "Профессиональная программа"
+        },
+        {
+          "title_en": "Laparoscopic Surgery Techniques",
+          "title_ru": "Техники лапароскопической хирургии",
+          "description": "Детальное руководство по современным техникам лапароскопической хирургии от ведущих специалистов Cleveland Clinic.",
+          "duration": "25:30",
+          "channel": "Cleveland Clinic",
+          "youtube_url": "https://my.clevelandclinic.org/departments/digestive/treatments-procedures/laparoscopic-surgery",
+          "views": "Медицинские специалисты"
+        },
+        {
+          "title_en": "Advanced Surgical Skills Training",
+          "title_ru": "Продвинутое обучение хирургическим навыкам",
+          "description": "Программа развития продвинутых хирургических навыков от Mayo Clinic Education для практикующих хирургов.",
+          "duration": "Курс",
+          "channel": "Mayo Clinic Education",
+          "youtube_url": "https://ce.mayo.edu/surgery",
+          "views": "Образовательная программа"
+        },
+        {
+          "title_en": "Minimally Invasive Surgery Fundamentals",
+          "title_ru": "Основы минимально инвазивной хирургии",
+          "description": "Фундаментальные принципы и техники минимально инвазивной хирургии для современных хирургов.",
+          "duration": "18:45",
+          "channel": "Johns Hopkins Surgery",
+          "youtube_url": "https://www.hopkinsmedicine.org/surgery/",
+          "views": "Профессиональное обучение"
+        }
+      ]
+    },
+    {
+      "id": "laparoscopic-procedures",
+      "name_en": "Laparoscopic Procedures",
+      "name_ru": "Лапароскопические процедуры",
+      "description_en": "Comprehensive library of laparoscopic surgical procedures and techniques",
+      "description_ru": "Всеобъемлющая библиотека лапароскопических хирургических процедур и техник",
+      "image_url": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=400&fit=crop",
+      "videos": [
+        {
+          "title_en": "Laparoscopic Surgery Video Library (473 Videos)",
+          "title_ru": "Библиотека видео лапароскопической хирургии (473 видео)",
+          "description": "Самая полная коллекция видеоматериалов по лапароскопической хирургии от доктора Р.К. Мишра, включающая все основные процедуры.",
+          "duration": "Коллекция",
+          "channel": "Dr. R.K. Mishra - World Laparoscopy Hospital",
+          "youtube_url": "https://www.youtube.com/@laparoscopyhospital",
+          "views": "473 видео"
+        },
+        {
+          "title_en": "Laparoscopic Cholecystectomy - Step by Step",
+          "title_ru": "Лапароскопическая холецистэктомия - пошагово",
+          "description": "Подробное пошаговое руководство по выполнению лапароскопической холецистэктомии с объяснением ключевых моментов техники.",
+          "duration": "32:15",
+          "channel": "Toronto Video Atlas of Liver, Pancreas and Transplant Surgery",
+          "youtube_url": "https://pie.med.utoronto.ca/TVASurgery/",
+          "views": "Хирургический атлас"
+        },
+        {
+          "title_en": "Advanced Laparoscopic Procedures",
+          "title_ru": "Продвинутые лапароскопические процедуры",
+          "description": "Сложные лапароскопические операции для опытных хирургов, включая резекции и реконструктивные вмешательства.",
+          "duration": "Серия видео",
+          "channel": "MEDtube - Medical Videos",
+          "youtube_url": "https://medtube.net/",
+          "views": "30,000+ видео"
+        },
+        {
+          "title_en": "Laparoscopic Hernia Repair Techniques",
+          "title_ru": "Техники лапароскопической герниопластики",
+          "description": "Современные методы лапароскопической пластики грыж, включая TEP и TAPP техники с детальными объяснениями.",
+          "duration": "28:40",
+          "channel": "European Hernia Society",
+          "youtube_url": "https://europeanherniasociety.eu/",
+          "views": "Специализированные процедуры"
+        },
+        {
+          "title_en": "Laparoscopic Colorectal Surgery",
+          "title_ru": "Лапароскопическая колоректальная хирургия",
+          "description": "Комплексное руководство по лапароскопическим операциям на толстой и прямой кишке для колопроктологов.",
+          "duration": "45:20",
+          "channel": "American Society of Colon & Rectal Surgeons",
+          "youtube_url": "https://fascrs.org/",
+          "views": "Профессиональная подготовка"
+        },
+        {
+          "title_en": "Laparoscopic Appendectomy Tutorial",
+          "title_ru": "Руководство по лапароскопической аппендэктомии",
+          "description": "Детальное руководство по выполнению лапароскопической аппендэктомии с разбором различных клинических случаев.",
+          "duration": "22:30",
+          "channel": "World Journal of Surgery",
+          "youtube_url": "https://link.springer.com/journal/268",
+          "views": "Академическое издание"
+        },
+        {
+          "title_en": "Single-Port Laparoscopic Surgery",
+          "title_ru": "Однопортовая лапароскопическая хирургия",
+          "description": "Инновационные техники однопортовой лапароскопии, преимущества и особенности выполнения различных процедур.",
+          "duration": "35:15",
+          "channel": "International Society for Minimally Invasive Surgery",
+          "youtube_url": "https://www.isms.org/",
+          "views": "Современные техники"
+        },
+        {
+          "title_en": "Pediatric Laparoscopic Surgery",
+          "title_ru": "Детская лапароскопическая хирургия",
+          "description": "Особенности лапароскопических операций у детей, специальные техники и инструментарий для педиатрической хирургии.",
+          "duration": "29:50",
+          "channel": "International Pediatric Endosurgery Group",
+          "youtube_url": "https://www.ipeg.org/",
+          "views": "Педиатрическая хирургия"
+        }
+      ]
+    },
+    {
+      "id": "surgeon-training",
+      "name_en": "Surgeon Training",
+      "name_ru": "Обучение хирургов",
+      "description_en": "Professional training programs and educational resources for surgical residents and practicing surgeons",
+      "description_ru": "Профессиональные обучающие программы и образовательные ресурсы для ординаторов и практикующих хирургов",
+      "image_url": "https://i.ytimg.com/vi/uBMdgprsmSA/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGEcgUihlMA8=&rs=AOn4CLDxJbw2ngxFLjEAaNC-ntOcz3Soog",
+      "videos": [
+        {
+          "title_en": "Robotic Surgery Training Program (244 Videos)",
+          "title_ru": "Программа обучения роботической хирургии (244 видео)",
+          "description": "Полная программа обучения роботической хирургии от доктора Р.К. Мишра, включающая все аспекты работы с хирургическими роботами.",
+          "duration": "Полная программа",
+          "channel": "Dr. R.K. Mishra - World Laparoscopy Hospital",
+          "youtube_url": "https://www.youtube.com/@laparoscopyhospital",
+          "views": "244 видео"
+        },
+        {
+          "title_en": "Surgical Skills Assessment and Training",
+          "title_ru": "Оценка и развитие хирургических навыков",
+          "description": "Программа оценки и развития хирургических навыков от Johns Hopkins, включающая современные методы тренинга.",
+          "duration": "Курс обучения",
+          "channel": "Johns Hopkins Department of Surgery",
+          "youtube_url": "https://www.hopkinsmedicine.org/surgery/education-training/",
+          "views": "Образовательная программа"
+        },
+        {
+          "title_en": "Minimally Invasive Surgery Fellowship",
+          "title_ru": "Стажировка по минимально инвазивной хирургии",
+          "description": "Программа специализации по минимально инвазивной хирургии для опытных хирургов от ведущих медицинских центров.",
+          "duration": "Программа стажировки",
+          "channel": "The Ohio State University Wexner Medical Center",
+          "youtube_url": "https://wexnermedical.osu.edu/departments/surgery",
+          "views": "Последипломное образование"
+        },
+        {
+          "title_en": "Surgical Simulation Training",
+          "title_ru": "Симуляционное обучение в хирургии",
+          "description": "Современные методы симуляционного обучения хирургов с использованием виртуальной реальности и роботических симуляторов.",
+          "duration": "Серия уроков",
+          "channel": "American College of Surgeons",
+          "youtube_url": "https://www.facs.org/education/",
+          "views": "Профессиональное развитие"
+        },
+        {
+          "title_en": "Surgical Resident Training Videos",
+          "title_ru": "Видео для обучения ординаторов-хирургов",
+          "description": "Специализированные обучающие видео для хирургических ординаторов, покрывающие основные и продвинутые процедуры.",
+          "duration": "Коллекция",
+          "channel": "Yale School of Medicine",
+          "youtube_url": "https://medicine.yale.edu/surgery/education/",
+          "views": "Резидентура"
+        },
+        {
+          "title_en": "International Surgery Training Exchange",
+          "title_ru": "Международный обмен хирургическими знаниями",
+          "description": "Программа международного обмена опытом между ведущими хирургами мира с демонстрацией уникальных техник.",
+          "duration": "Международная программа",
+          "channel": "World Health Organization",
+          "youtube_url": "https://www.who.int/",
+          "views": "Глобальное образование"
+        },
+        {
+          "title_en": "Evidence-Based Surgical Practice",
+          "title_ru": "Доказательная хирургическая практика",
+          "description": "Обучение принципам доказательной медицины применительно к хирургической практике и клиническим исследованиям.",
+          "duration": "Академический курс",
+          "channel": "Harvard Medical School",
+          "youtube_url": "https://hms.harvard.edu/departments/surgery",
+          "views": "Академическое образование"
+        },
+        {
+          "title_en": "Surgical Quality Improvement Training",
+          "title_ru": "Обучение улучшению качества в хирургии",
+          "description": "Программы по улучшению качества хирургической помощи, управлению рисками и безопасности пациентов.",
+          "duration": "Специализированный курс",
+          "channel": "Institute for Healthcare Improvement",
+          "youtube_url": "http://www.ihi.org/",
+          "views": "Качество медицинской помощи"
+        },
+        {
+          "title_en": "Advanced Trauma Surgery Training",
+          "title_ru": "Продвинутое обучение травматологической хирургии",
+          "description": "Специализированная подготовка хирургов по оказанию помощи при тяжелых травмах и неотложных хирургических состояниях.",
+          "duration": "Интенсивный курс",
+          "channel": "American Trauma Society",
+          "youtube_url": "https://www.amtrauma.org/",
+          "views": "Экстренная хирургия"
+        }
+      ]
+    },
+    {
+      "id": "medical-instruments",
+      "name_en": "Medical Instruments",
+      "name_ru": "Медицинские инструменты",
+      "description_en": "Training on surgical instruments, equipment handling, and sterilization procedures",
+      "description_ru": "Обучение работе с хирургическими инструментами, обращение с оборудованием и процедуры стерилизации",
+      "image_url": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&h=400&fit=crop",
+      "videos": [
+        {
+          "title_en": "Surgical Instrument Processing Certification",
+          "title_ru": "Сертификация по обработке хирургических инструментов",
+          "description": "Профессиональная программа сертификации по правильной обработке, стерилизации и уходу за хирургическими инструментами.",
+          "duration": "Программа сертификации",
+          "channel": "Healthcare Sterile Processing Association (HSPA)",
+          "youtube_url": "https://www.sterileprocessing.org/",
+          "views": "Профессиональная сертификация"
+        },
+        {
+          "title_en": "Laparoscopic Instrument Training",
+          "title_ru": "Обучение работе с лапароскопическими инструментами",
+          "description": "Детальное руководство по использованию специализированных лапароскопических инструментов и их технических характеристик.",
+          "duration": "45:20",
+          "channel": "Olympus Medical Training Center",
+          "youtube_url": "https://www.olympus-europa.com/medical/en/",
+          "views": "Специализированное обучение"
+        },
+        {
+          "title_en": "Robotic Surgical Instruments Workshop",
+          "title_ru": "Мастер-класс по роботическим хирургическим инструментам",
+          "description": "Комплексное обучение работе с роботическими хирургическими системами и их инструментарием для современных операций.",
+          "duration": "60:30",
+          "channel": "da Vinci Surgery Community",
+          "youtube_url": "https://www.davincisurgerycommunity.com/",
+          "views": "Роботическая хирургия"
+        },
+        {
+          "title_en": "Surgical Equipment Maintenance and Safety",
+          "title_ru": "Обслуживание и безопасность хирургического оборудования",
+          "description": "Программа обучения правильному техническому обслуживанию хирургического оборудования и соблюдению норм безопасности.",
+          "duration": "Обучающий курс",
+          "channel": "Association of periOperative Registered Nurses (AORN)",
+          "youtube_url": "https://www.aorn.org/",
+          "views": "Операционная безопасность"
+        }
+      ]
+    },
+    {
+      "id": "operating-methods",
+      "name_en": "Operating Room Methods",
+      "name_ru": "Операционные методы",
+      "description_en": "Operating room protocols, patient safety, and surgical team coordination",
+      "description_ru": "Операционные протоколы, безопасность пациентов и координация хирургической команды",
+      "image_url": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&h=400&fit=crop",
+      "videos": [
+        {
+          "title_en": "WHO Surgical Safety Checklist Implementation",
+          "title_ru": "Внедрение хирургического чек-листа безопасности ВОЗ",
+          "description": "Руководство по внедрению и использованию хирургического чек-листа безопасности ВОЗ для повышения качества хирургической помощи.",
+          "duration": "25:15",
+          "channel": "World Health Organization",
+          "youtube_url": "https://www.who.int/teams/integrated-health-services/patient-safety/research/safe-surgery/",
+          "views": "Глобальные стандарты"
+        },
+        {
+          "title_en": "Operating Room Team Communication",
+          "title_ru": "Коммуникация команды в операционной",
+          "description": "Эффективные методы коммуникации между членами хирургической команды для предотвращения ошибок и улучшения результатов.",
+          "duration": "30:45",
+          "channel": "Joint Commission International",
+          "youtube_url": "https://www.jointcommissioninternational.org/",
+          "views": "Командная работа"
+        },
+        {
+          "title_en": "Sterile Technique in Surgery",
+          "title_ru": "Стерильная техника в хирургии",
+          "description": "Фундаментальные принципы поддержания стерильности в операционной, техники асептики и антисептики.",
+          "duration": "40:20",
+          "channel": "Centers for Disease Control and Prevention",
+          "youtube_url": "https://www.cdc.gov/infectioncontrol/",
+          "views": "Профилактика инфекций"
+        },
+        {
+          "title_en": "Surgical Site Infection Prevention",
+          "title_ru": "Профилактика инфекций области хирургического вмешательства",
+          "description": "Современные подходы к профилактике послеоперационных инфекций и соблюдению антимикробных протоколов.",
+          "duration": "35:10",
+          "channel": "Society for Healthcare Epidemiology of America",
+          "youtube_url": "https://www.shea-online.org/",
+          "views": "Инфекционный контроль"
+        }
+      ]
+    },
+    {
+      "id": "surgical-anatomy",
+      "name_en": "Surgical Anatomy",
+      "name_ru": "Анатомия для хирургов",
+      "description_en": "Detailed anatomical knowledge essential for surgical practice and procedures",
+      "description_ru": "Детальные анатомические знания, необходимые для хирургической практики и процедур",
+      "image_url": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=400&fit=crop",
+      "videos": [
+        {
+          "title_en": "Virtual Reality Surgical Anatomy",
+          "title_ru": "Хирургическая анатомия в виртуальной реальности",
+          "description": "Инновационная программа изучения анатомии с использованием VR и AR технологий для более глубокого понимания структур.",
+          "duration": "VR/AR курс",
+          "channel": "Stanford Virtual Heart",
+          "youtube_url": "https://simtk.org/projects/virtualheartdx",
+          "views": "Инновационное обучение"
+        },
+        {
+          "title_en": "Clinical Anatomy for Surgeons",
+          "title_ru": "Клиническая анатомия для хирургов",
+          "description": "Практический курс клинической анатомии с акцентом на хирургические доступы и топографические особенности.",
+          "duration": "Академический курс",
+          "channel": "Harvard Medical School",
+          "youtube_url": "https://hms.harvard.edu/",
+          "views": "Медицинское образование"
+        },
+        {
+          "title_en": "Radiological Anatomy for Surgery",
+          "title_ru": "Лучевая анатомия для хирургов",
+          "description": "Интерпретация радиологических изображений в контексте хирургического планирования и интраоперационной навигации.",
+          "duration": "Специализированный курс",
+          "channel": "Society of Interventional Radiology",
+          "youtube_url": "https://www.sirweb.org/",
+          "views": "Интервенционная радиология"
+        },
+        {
+          "title_en": "3D Anatomical Models in Surgery",
+          "title_ru": "3D анатомические модели в хирургии",
+          "description": "Использование трехмерных анатомических моделей для предоперационного планирования и обучения хирургов.",
+          "duration": "Технологический курс",
+          "channel": "Mayo Clinic 3D Anatomy Lab",
+          "youtube_url": "https://www.mayo.edu/research/labs/3d-anatomic-modeling/overview",
+          "views": "3D моделирование"
+        }
+      ]
+    },
+    {
+      "id": "simulation-training",
+      "name_en": "Simulation & Training",
+      "name_ru": "Симуляция и обучение",
+      "description_en": "Advanced simulation technologies and virtual reality training for surgical skills development",
+      "description_ru": "Передовые симуляционные технологии и обучение с использованием виртуальной реальности для развития хирургических навыков",
+      "image_url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=400&fit=crop",
+      "videos": [
+        {
+          "title_en": "Surgical Skills Simulation Center",
+          "title_ru": "Центр симуляции хирургических навыков",
+          "description": "Комплексная программа обучения в симуляционном центре с использованием высокотехнологичных тренажеров и VR-систем.",
+          "duration": "Программа центра",
+          "channel": "American College of Surgeons",
+          "youtube_url": "https://www.facs.org/education/accreditation-and-verification/aei/",
+          "views": "Аккредитованное обучение"
+        },
+        {
+          "title_en": "Virtual Reality Laparoscopic Training",
+          "title_ru": "VR-тренинг лапароскопической хирургии",
+          "description": "Инновационная система обучения лапароскопии с использованием виртуальной реальности для безопасной отработки навыков.",
+          "duration": "VR программа",
+          "channel": "Yale School of Medicine Simulation Program",
+          "youtube_url": "https://medicine.yale.edu/surgery/education/simulation/",
+          "views": "Виртуальная реальность"
+        },
+        {
+          "title_en": "Robotic Surgery Simulation Platform",
+          "title_ru": "Платформа симуляции роботической хирургии",
+          "description": "Профессиональная система симуляции для обучения роботической хирургии с реалистичной тактильной обратной связью.",
+          "duration": "Симуляционная платформа",
+          "channel": "UC Davis Comprehensive Simulation Center",
+          "youtube_url": "https://health.ucdavis.edu/simulate/",
+          "views": "Роботические симуляторы"
+        },
+        {
+          "title_en": "Haptic Feedback Surgical Trainers",
+          "title_ru": "Хирургические тренажеры с тактильной обратной связью",
+          "description": "Современные тренажеры с тактильной обратной связью для реалистичной отработки хирургических манипуляций.",
+          "duration": "Техническое обучение",
+          "channel": "Society for Simulation in Healthcare",
+          "youtube_url": "https://www.ssih.org/",
+          "views": "Симуляционные технологии"
+        },
+        {
+          "title_en": "Team-Based Surgical Simulation",
+          "title_ru": "Командная хирургическая симуляция",
+          "description": "Тренинг командной работы в операционной с использованием сценарных симуляций критических ситуаций.",
+          "duration": "Командные симуляции",
+          "channel": "Center for Advanced Pediatric & Perinatal Education",
+          "youtube_url": "https://www.cappe.org/",
+          "views": "Командная подготовка"
+        }
+      ]
+    },
+    {
+      "id": "endoscopic-techniques",
+      "name_en": "Endoscopic Techniques",
+      "name_ru": "Эндоскопические техники",
+      "description_en": "Advanced endoscopic procedures and minimally invasive diagnostic techniques",
+      "description_ru": "Продвинутые эндоскопические процедуры и минимально инвазивные диагностические техники",
+      "image_url": "https://i.ytimg.com/vi/F6hdQJdWFkk/maxresdefault.jpg",
+      "videos": [
+        {
+          "title_en": "Advanced Therapeutic Endoscopy",
+          "title_ru": "Продвинутая терапевтическая эндоскопия",
+          "description": "Комплексное руководство по сложным терапевтическим эндоскопическим процедурам от ведущих гастроэнтерологов мира.",
+          "duration": "50:30",
+          "channel": "UCLA Center for Advanced Therapeutic Endoscopy",
+          "youtube_url": "https://www.uclahealth.org/gastroenterology/advanced-endoscopy",
+          "views": "Терапевтическая эндоскопия"
+        },
+        {
+          "title_en": "ERCP Techniques and Complications",
+          "title_ru": "Техники ЭРХПГ и осложнения",
+          "description": "Детальный разбор техник эндоскопической ретроградной холангиопанкреатографии и управление возможными осложнениями.",
+          "duration": "42:15",
+          "channel": "American Society for Gastrointestinal Endoscopy",
+          "youtube_url": "https://www.asge.org/",
+          "views": "ЭРХПГ процедуры"
+        },
+        {
+          "title_en": "Endoscopic Submucosal Dissection (ESD)",
+          "title_ru": "Эндоскопическая диссекция в подслизистом слое (ESD)",
+          "description": "Современные техники ESD для лечения ранних злокачественных новообразований желудочно-кишечного тракта.",
+          "duration": "38:45",
+          "channel": "UCSF Division of Gastroenterology",
+          "youtube_url": "https://gastroenterology.ucsf.edu/",
+          "views": "ESD техники"
+        },
+        {
+          "title_en": "Endoscopic Mucosal Resection (EMR)",
+          "title_ru": "Эндоскопическая резекция слизистой оболочки (EMR)",
+          "description": "Практическое руководство по выполнению эндоскопической резекции слизистой оболочки для различных патологий ЖКТ.",
+          "duration": "35:20",
+          "channel": "Mayo Clinic Division of Gastroenterology and Hepatology",
+          "youtube_url": "https://www.mayoclinic.org/",
+          "views": "EMR процедуры"
+        },
+        {
+          "title_en": "Peroral Endoscopic Myotomy (POEM)",
+          "title_ru": "Пероральная эндоскопическая миотомия (POEM)",
+          "description": "Инновационная техника POEM для лечения ахалазии кардии - детальное руководство от ведущих экспертов.",
+          "duration": "45:10",
+          "channel": "Johns Hopkins Division of Gastroenterology & Hepatology",
+          "youtube_url": "https://www.hopkinsmedicine.org/gastroenterology_hepatology/",
+          "views": "POEM процедуры"
+        },
+        {
+          "title_en": "Capsule Endoscopy Interpretation",
+          "title_ru": "Интерпретация капсульной эндоскопии",
+          "description": "Систематический подход к анализу и интерпретации данных капсульной эндоскопии тонкой кишки.",
+          "duration": "40:25",
+          "channel": "International Conference on Capsule Endoscopy",
+          "youtube_url": "https://www.givenimaging.com/",
+          "views": "Капсульная эндоскопия"
+        }
+      ]
+    },
+    {
+      "id": "minimally-invasive-surgery",
+      "name_en": "Minimally Invasive Surgery",
+      "name_ru": "Минимально инвазивная хирургия",
+      "description_en": "Cutting-edge minimally invasive surgical techniques and robotic surgery applications",
+      "description_ru": "Современные минимально инвазивные хирургические техники и применение роботической хирургии",
+      "image_url": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&h=400&fit=crop",
+      "videos": [
+        {
+          "title_en": "Robotic-Assisted Cardiac Surgery",
+          "title_ru": "Роботизированная кардиохирургия",
+          "description": "Применение роботических систем в кардиохирургии: техники, показания и преимущества минимально инвазивных вмешательств на сердце.",
+          "duration": "55:30",
+          "channel": "Cleveland Clinic Heart, Vascular & Thoracic Institute",
+          "youtube_url": "https://www.clevelandclinic.org/",
+          "views": "Роботическая кардиохирургия"
+        },
+        {
+          "title_en": "Single-Incision Laparoscopic Surgery",
+          "title_ru": "Лапароскопическая хирургия через единый разрез",
+          "description": "Передовые техники SILS (Single-Incision Laparoscopic Surgery) для максимального косметического эффекта и быстрого восстановления.",
+          "duration": "40:45",
+          "channel": "Mayo Clinic Department of Surgery",
+          "youtube_url": "https://www.mayoclinic.org/departments-centers/surgery/sections/overview/ovc-20442476",
+          "views": "SILS техники"
+        },
+        {
+          "title_en": "Natural Orifice Transluminal Endoscopic Surgery (NOTES)",
+          "title_ru": "Эндоскопическая хирургия через естественные отверстия (NOTES)",
+          "description": "Революционные техники NOTES для выполнения внутриполостных операций без наружных разрезов через естественные отверстия тела.",
+          "duration": "48:20",
+          "channel": "Johns Hopkins Department of Surgery",
+          "youtube_url": "https://www.hopkinsmedicine.org/surgery/",
+          "views": "NOTES процедуры"
+        },
+        {
+          "title_en": "Minimally Invasive Spine Surgery",
+          "title_ru": "Минимально инвазивная хирургия позвоночника",
+          "description": "Современные подходы к хирургии позвоночника с минимальной травматизацией тканей и быстрой реабилитацией пациентов.",
+          "duration": "52:10",
+          "channel": "Brigham and Women's Hospital Department of Neurosurgery",
+          "youtube_url": "https://www.brighamandwomens.org/neurosurgery",
+          "views": "Спинальная хирургия"
+        },
+        {
+          "title_en": "Microsurgery and Precision Techniques",
+          "title_ru": "Микрохирургия и прецизионные техники",
+          "description": "Высокоточные микрохирургические техники с использованием операционного микроскопа и специализированного инструментария.",
+          "duration": "60:15",
+          "channel": "Massachusetts General Hospital Department of Surgery",
+          "youtube_url": "https://www.massgeneral.org/surgery/",
+          "views": "Микрохирургические техники"
+        },
+        {
+          "title_en": "Fluorescence-Guided Surgery",
+          "title_ru": "Флуоресцентно-навигируемая хирургия",
+          "description": "Применение флуоресцентной визуализации для улучшения интраоперационной навигации и точности хирургических вмешательств.",
+          "duration": "35:40",
+          "channel": "Memorial Sloan Kettering Cancer Center",
+          "youtube_url": "https://www.mskcc.org/departments/surgery",
+          "views": "Флуоресцентная навигация"
+        },
+        {
+          "title_en": "Hybrid Operating Room Technologies",
+          "title_ru": "Технологии гибридной операционной",
+          "description": "Интеграция различных визуализирующих систем и роботических платформ в современной гибридной операционной.",
+          "duration": "45:55",
+          "channel": "Texas Heart Institute",
+          "youtube_url": "https://www.texasheart.org/",
+          "views": "Гибридные технологии"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "total_categories": 9,
+    "total_videos": 57,
+    "created_date": "2025-11-02",
+    "description": "Профессиональный каталог хирургических и медицинских образовательных видеоматериалов для платформы SSVproff. Организован по тематическим категориям для специализированного медицинского образования хирургов и медицинских специалистов.",
+    "platforms_included": [
+      "SAGES (Society of American Gastrointestinal and Endoscopic Surgeons)",
+      "Cleveland Clinic",
+      "Mayo Clinic Education",
+      "Johns Hopkins Surgery",
+      "World Laparoscopy Hospital",
+      "MEDtube Medical Videos",
+      "American College of Surgeons",
+      "Yale School of Medicine",
+      "Harvard Medical School",
+      "World Health Organization",
+      "Stanford Virtual Heart",
+      "Society for Simulation in Healthcare",
+      "UCLA Advanced Therapeutic Endoscopy",
+      "UCSF Gastroenterology",
+      "Massachusetts General Hospital",
+      "Brigham and Women's Hospital",
+      "Memorial Sloan Kettering Cancer Center",
+      "Texas Heart Institute"
+    ],
+    "focus_areas": [
+      "Лапароскопическая хирургия",
+      "Роботическая хирургия", 
+      "Эндоскопические процедуры",
+      "Минимально инвазивная хирургия",
+      "Хирургическое образование",
+      "Симуляционные технологии",
+      "Медицинское оборудование",
+      "Хирургическая безопасность",
+      "Клиническая анатомия"
+    ]
+  }
+}
