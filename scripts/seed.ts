@@ -107,16 +107,97 @@ async function main() {
     }
   }
 
+  // Create courses from categories
+  console.log('🎓 Creating courses...');
+  
+  const categories = await prisma.category.findMany({
+    include: { videos: true }
+  });
+
+  const courseDescriptions: { [key: string]: string } = {
+    'surgical-techniques': 'Освойте фундаментальные и продвинутые хирургические техники. Этот курс охватывает ключевые методики современной хирургии, от базовых навыков до сложных процедур.',
+    'laparoscopic-procedures': 'Полный курс по лапароскопической хирургии с практическими демонстрациями. Изучите все основные лапароскопические процедуры пошагово.',
+    'surgeon-training': 'Комплексная программа профессионального развития для хирургов всех уровней. Включает симуляционное обучение и международный опыт.',
+    'medical-instruments': 'Научитесь правильно работать с современным хирургическим оборудованием. Курс охватывает инструменты, стерилизацию и техническое обслуживание.',
+    'operating-methods': 'Освойте операционные протоколы и методы командной работы. Изучите стандарты безопасности ВОЗ и профилактику инфекций.',
+    'surgical-anatomy': 'Углубленное изучение анатомии с хирургической точки зрения. Используйте VR/AR технологии и 3D модели для лучшего понимания.',
+    'simulation-training': 'Отработайте навыки на современных симуляторах и в VR. Безопасная среда для тренировки сложных процедур.',
+    'endoscopic-techniques': 'Мастер-класс по современным эндоскопическим процедурам. От базовых техник до продвинутых терапевтических вмешательств.',
+    'minimally-invasive-surgery': 'Изучите передовые технологии минимально инвазивной хирургии. Роботические системы, NOTES, и микрохирургия.'
+  };
+
+  const courseLevels: { [key: string]: 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED' | 'EXPERT' } = {
+    'surgical-techniques': 'BEGINNER',
+    'laparoscopic-procedures': 'INTERMEDIATE',
+    'surgeon-training': 'INTERMEDIATE',
+    'medical-instruments': 'BEGINNER',
+    'operating-methods': 'BEGINNER',
+    'surgical-anatomy': 'INTERMEDIATE',
+    'simulation-training': 'ADVANCED',
+    'endoscopic-techniques': 'ADVANCED',
+    'minimally-invasive-surgery': 'EXPERT'
+  };
+
+  for (const category of categories) {
+    if (category.videos.length === 0) continue;
+
+    const course = await prisma.course.create({
+      data: {
+        slug: `course-${category.slug}`,
+        titleEn: `${category.titleEn} - Complete Course`,
+        titleRu: `${category.titleRu} - Полный курс`,
+        description: courseDescriptions[category.slug] || category.description,
+        shortDescription: `Изучите ${category.titleRu.toLowerCase()} с ведущими экспертами`,
+        thumbnailUrl: category.imageUrl,
+        categoryId: category.id,
+        duration: `${category.videos.length} уроков`,
+        level: courseLevels[category.slug] || 'BEGINNER',
+        isPremium: Math.random() > 0.5,
+        price: Math.random() > 0.5 ? Math.floor(Math.random() * 5000) + 1000 : null,
+        xpReward: category.videos.length * 20,
+        published: true,
+        featured: Math.random() > 0.6,
+      },
+    });
+
+    console.log(`📚 Created course: ${course.titleRu}`);
+
+    // Create lessons from videos
+    for (let i = 0; i < category.videos.length; i++) {
+      const video = category.videos[i];
+      await prisma.lesson.create({
+        data: {
+          slug: `lesson-${i + 1}`,
+          titleEn: video.titleEn,
+          titleRu: video.titleRu,
+          description: video.description,
+          courseId: course.id,
+          videoId: video.id,
+          order: i + 1,
+          duration: video.duration,
+          xpReward: 20,
+          isFree: i === 0, // First lesson is always free
+        },
+      });
+    }
+    
+    console.log(`   ✓ Added ${category.videos.length} lessons`);
+  }
+
   console.log('✅ Database seeding completed successfully!');
   
   // Print summary
   const categoriesCount = await prisma.category.count();
   const videosCount = await prisma.video.count();
   const relatedCount = await prisma.relatedVideo.count();
+  const coursesCount = await prisma.course.count();
+  const lessonsCount = await prisma.lesson.count();
   
   console.log(`📊 Summary:`);
   console.log(`   Categories: ${categoriesCount}`);
   console.log(`   Videos: ${videosCount}`);
+  console.log(`   Courses: ${coursesCount}`);
+  console.log(`   Lessons: ${lessonsCount}`);
   console.log(`   Related connections: ${relatedCount}`);
 }
 

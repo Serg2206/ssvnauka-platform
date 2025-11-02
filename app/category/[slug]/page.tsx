@@ -1,5 +1,3 @@
-
-import { Suspense } from 'react'
 import Link from 'next/link'
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -7,37 +5,19 @@ import { Button } from '@/components/ui/button'
 import { Play, Clock, Eye, ExternalLink, ArrowLeft } from 'lucide-react'
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
+import { prisma } from '@/lib/db'
 
-export const dynamic = 'force-dynamic'
-
-interface Video {
-  id: string
-  slug: string
-  titleRu: string
-  description: string
-  duration: string
-  channel: string
-  youtubeUrl: string
-  viewCount?: string
-}
-
-interface Category {
-  id: string
-  slug: string
-  titleRu: string
-  description: string
-  emoji: string
-  videos: Video[]
-}
-
-async function getCategoryBySlug(slug: string): Promise<Category | null> {
+async function getCategoryBySlug(slug: string) {
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/categories`, {
-      cache: 'no-store'
+    const category = await prisma.category.findUnique({
+      where: { slug },
+      include: {
+        videos: {
+          orderBy: { createdAt: 'desc' }
+        }
+      }
     })
-    if (!response.ok) return null
-    const categories = await response.json()
-    return categories.find((cat: Category) => cat.slug === slug) || null
+    return category
   } catch (error) {
     console.error('Error fetching category:', error)
     return null
@@ -170,13 +150,10 @@ export default async function CategoryPage({ params }: { params: { slug: string 
 
 export async function generateStaticParams() {
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/categories`, {
-      cache: 'no-store'
+    const categories = await prisma.category.findMany({
+      select: { slug: true }
     })
-    if (!response.ok) return []
-    
-    const categories = await response.json()
-    return categories.map((category: Category) => ({
+    return categories.map((category) => ({
       slug: category.slug,
     }))
   } catch (error) {

@@ -1,28 +1,29 @@
-export type Expense = {
-  id: string
-  amount: number
-  category: string
-  description: string
-  date: Date
+
+import { Role } from "@prisma/client";
+
+declare module "next-auth" {
+  interface Session {
+    user: {
+      id: string;
+      email: string;
+      name?: string | null;
+      image?: string | null;
+      role: Role;
+    };
+  }
+
+  interface User {
+    id: string;
+    email: string;
+    name?: string | null;
+    image?: string | null;
+    role: Role;
+  }
 }
 
-export type ExpenseFormData = Omit<Expense, 'id' | 'date'> & {
-  date: string
-}
-
-export const EXPENSE_CATEGORIES = [
-  'Food',
-  'Transportation',
-  'Housing',
-  'Utilities',
-  'Entertainment',
-  'Healthcare',
-  'Shopping',
-  'Education',
-  'Other'
-] as const
-
-export type DateRange = {
-  from: Date | undefined
-  to: Date | undefined
+declare module "next-auth/jwt" {
+  interface JWT {
+    id: string;
+    role: Role;
+  }
 }

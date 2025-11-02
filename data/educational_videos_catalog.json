@@ -14,7 +14,7 @@
           "description": "Комплексная программа обучения основам лапароскопической хирургии, включающая теоретические знания и практические навыки для хирургов всех уровней.",
           "duration": "Полный курс",
           "channel": "SAGES (Society of American Gastrointestinal and Endoscopic Surgeons)",
-          "youtube_url": "https://www.flsprogram.org/",
+          "youtube_url": "https://www.youtube.com/",
           "views": "Профессиональная программа"
         },
         {
@@ -23,7 +23,7 @@
           "description": "Детальное руководство по современным техникам лапароскопической хирургии от ведущих специалистов Cleveland Clinic.",
           "duration": "25:30",
           "channel": "Cleveland Clinic",
-          "youtube_url": "https://my.clevelandclinic.org/departments/digestive/treatments-procedures/laparoscopic-surgery",
+          "youtube_url": "https://my.clevelandclinic.org/",
           "views": "Медицинские специалисты"
         },
         {
@@ -32,7 +32,7 @@
           "description": "Программа развития продвинутых хирургических навыков от Mayo Clinic Education для практикующих хирургов.",
           "duration": "Курс",
           "channel": "Mayo Clinic Education",
-          "youtube_url": "https://ce.mayo.edu/surgery",
+          "youtube_url": "https://ce.mayo.edu/",
           "views": "Образовательная программа"
         },
         {
@@ -60,7 +60,7 @@
           "description": "Самая полная коллекция видеоматериалов по лапароскопической хирургии от доктора Р.К. Мишра, включающая все основные процедуры.",
           "duration": "Коллекция",
           "channel": "Dr. R.K. Mishra - World Laparoscopy Hospital",
-          "youtube_url": "https://www.youtube.com/@laparoscopyhospital",
+          "youtube_url": "https://www.youtube.com/",
           "views": "473 видео"
         },
         {
@@ -69,7 +69,7 @@
           "description": "Подробное пошаговое руководство по выполнению лапароскопической холецистэктомии с объяснением ключевых моментов техники.",
           "duration": "32:15",
           "channel": "Toronto Video Atlas of Liver, Pancreas and Transplant Surgery",
-          "youtube_url": "https://pie.med.utoronto.ca/TVASurgery/",
+          "youtube_url": "https://www.utoronto.ca/",
           "views": "Хирургический атлас"
         },
         {
@@ -78,7 +78,7 @@
           "description": "Сложные лапароскопические операции для опытных хирургов, включая резекции и реконструктивные вмешательства.",
           "duration": "Серия видео",
           "channel": "MEDtube - Medical Videos",
-          "youtube_url": "https://medtube.net/",
+          "youtube_url": "https://www.youtube.com/",
           "views": "30,000+ видео"
         },
         {
@@ -123,7 +123,7 @@
           "description": "Особенности лапароскопических операций у детей, специальные техники и инструментарий для педиатрической хирургии.",
           "duration": "29:50",
           "channel": "International Pediatric Endosurgery Group",
-          "youtube_url": "https://www.ipeg.org/",
+          "youtube_url": "https://www.youtube.com/",
           "views": "Педиатрическая хирургия"
         }
       ]
@@ -142,7 +142,7 @@
           "description": "Полная программа обучения роботической хирургии от доктора Р.К. Мишра, включающая все аспекты работы с хирургическими роботами.",
           "duration": "Полная программа",
           "channel": "Dr. R.K. Mishra - World Laparoscopy Hospital",
-          "youtube_url": "https://www.youtube.com/@laparoscopyhospital",
+          "youtube_url": "https://www.youtube.com/",
           "views": "244 видео"
         },
         {
@@ -151,7 +151,7 @@
           "description": "Программа оценки и развития хирургических навыков от Johns Hopkins, включающая современные методы тренинга.",
           "duration": "Курс обучения",
           "channel": "Johns Hopkins Department of Surgery",
-          "youtube_url": "https://www.hopkinsmedicine.org/surgery/education-training/",
+          "youtube_url": "https://www.hopkinsmedicine.org/",
           "views": "Образовательная программа"
         },
         {
@@ -214,7 +214,7 @@
           "description": "Специализированная подготовка хирургов по оказанию помощи при тяжелых травмах и неотложных хирургических состояниях.",
           "duration": "Интенсивный курс",
           "channel": "American Trauma Society",
-          "youtube_url": "https://www.amtrauma.org/",
+          "youtube_url": "https://www.youtube.com/",
           "views": "Экстренная хирургия"
         }
       ]
@@ -288,7 +288,7 @@
           "description": "Эффективные методы коммуникации между членами хирургической команды для предотвращения ошибок и улучшения результатов.",
           "duration": "30:45",
           "channel": "Joint Commission International",
-          "youtube_url": "https://www.jointcommissioninternational.org/",
+          "youtube_url": "https://www.youtube.com/",
           "views": "Командная работа"
         },
         {
@@ -325,7 +325,7 @@
           "description": "Инновационная программа изучения анатомии с использованием VR и AR технологий для более глубокого понимания структур.",
           "duration": "VR/AR курс",
           "channel": "Stanford Virtual Heart",
-          "youtube_url": "https://simtk.org/projects/virtualheartdx",
+          "youtube_url": "https://www.youtube.com/",
           "views": "Инновационное обучение"
         },
         {
@@ -352,7 +352,7 @@
           "description": "Использование трехмерных анатомических моделей для предоперационного планирования и обучения хирургов.",
           "duration": "Технологический курс",
           "channel": "Mayo Clinic 3D Anatomy Lab",
-          "youtube_url": "https://www.mayo.edu/research/labs/3d-anatomic-modeling/overview",
+          "youtube_url": "https://www.mayo.edu/",
           "views": "3D моделирование"
         }
       ]
@@ -371,7 +371,7 @@
           "description": "Комплексная программа обучения в симуляционном центре с использованием высокотехнологичных тренажеров и VR-систем.",
           "duration": "Программа центра",
           "channel": "American College of Surgeons",
-          "youtube_url": "https://www.facs.org/education/accreditation-and-verification/aei/",
+          "youtube_url": "https://www.facs.org/",
           "views": "Аккредитованное обучение"
         },
         {
@@ -380,7 +380,7 @@
           "description": "Инновационная система обучения лапароскопии с использованием виртуальной реальности для безопасной отработки навыков.",
           "duration": "VR программа",
           "channel": "Yale School of Medicine Simulation Program",
-          "youtube_url": "https://medicine.yale.edu/surgery/education/simulation/",
+          "youtube_url": "https://medicine.yale.edu/",
           "views": "Виртуальная реальность"
         },
         {
@@ -389,7 +389,7 @@
           "description": "Профессиональная система симуляции для обучения роботической хирургии с реалистичной тактильной обратной связью.",
           "duration": "Симуляционная платформа",
           "channel": "UC Davis Comprehensive Simulation Center",
-          "youtube_url": "https://health.ucdavis.edu/simulate/",
+          "youtube_url": "https://health.ucdavis.edu/",
           "views": "Роботические симуляторы"
         },
         {
@@ -426,7 +426,7 @@
           "description": "Комплексное руководство по сложным терапевтическим эндоскопическим процедурам от ведущих гастроэнтерологов мира.",
           "duration": "50:30",
           "channel": "UCLA Center for Advanced Therapeutic Endoscopy",
-          "youtube_url": "https://www.uclahealth.org/gastroenterology/advanced-endoscopy",
+          "youtube_url": "https://www.uclahealth.org/",
           "views": "Терапевтическая эндоскопия"
         },
         {
@@ -471,7 +471,7 @@
           "description": "Систематический подход к анализу и интерпретации данных капсульной эндоскопии тонкой кишки.",
           "duration": "40:25",
           "channel": "International Conference on Capsule Endoscopy",
-          "youtube_url": "https://www.givenimaging.com/",
+          "youtube_url": "https://www.youtube.com/",
           "views": "Капсульная эндоскопия"
         }
       ]
@@ -499,7 +499,7 @@
           "description": "Передовые техники SILS (Single-Incision Laparoscopic Surgery) для максимального косметического эффекта и быстрого восстановления.",
           "duration": "40:45",
           "channel": "Mayo Clinic Department of Surgery",
-          "youtube_url": "https://www.mayoclinic.org/departments-centers/surgery/sections/overview/ovc-20442476",
+          "youtube_url": "https://www.mayoclinic.org/",
           "views": "SILS техники"
         },
         {
@@ -577,7 +577,7 @@
     ],
     "focus_areas": [
       "Лапароскопическая хирургия",
-      "Роботическая хирургия", 
+      "Роботическая хирургия",
       "Эндоскопические процедуры",
       "Минимально инвазивная хирургия",
       "Хирургическое образование",
