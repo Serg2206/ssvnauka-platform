@@ -5,7 +5,7 @@
   "framework": "nextjs",
   "outputDirectory": ".next",
   "regions": ["iad1"],
-  "env
+  "env": {
     "DATABASE_URL": "database_url",
     "NEXTAUTH_SECRET": "nextauth_secret",
     "NEXTAUTH_URL": "nextauth_url"
